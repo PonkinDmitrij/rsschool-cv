@@ -63,3 +63,7 @@ const biggerPrice = (num, arr) => {
 ### Self-education
 
 - Various webinars and lectures on html layout and web programming on youtube; books, articles, and internet resources on programming and development
+
+## English language level
+
+Beginner
