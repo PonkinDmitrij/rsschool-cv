@@ -40,3 +40,10 @@ const biggerPrice = (num, arr) => {
     .slice(0, num);
 };
 ```
+
+## Work experience
+
+- Landing page for breastfeeding specialist course
+  - Skills and technology used: `HTML5`, `CSS3`, `Sass`, `SVG`, `Webpack`, `Responsive Design`, `Mobile First`
+  - Completed project - [https://iqmom.ru/planting-course.html](https://iqmom.ru/planting-course.html)
+  - Source code - [https://github.com/PonkinDmitrij/iqmom-course](https://github.com/PonkinDmitrij/iqmom-course)
