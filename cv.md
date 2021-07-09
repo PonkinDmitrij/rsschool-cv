@@ -13,3 +13,12 @@ I'm studying front-end development. Programming is a real passion for me! My goa
 
 My strengths are the constant desire to learn something new, develop, get different unique experiences and never stop there!
 Awareness in life and a responsible approach to learning, working, and relaxing!
+
+## Skills summary
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- Github
+- BEM
