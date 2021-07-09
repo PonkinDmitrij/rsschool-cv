@@ -22,3 +22,21 @@ Awareness in life and a responsible approach to learning, working, and relaxing!
 - Git
 - Github
 - BEM
+
+## Code examples
+
+```
+/**
+ * Bigger Price
+ * https://js.checkio.org/en/mission/bigger-price/
+ * @param {number} num - Integer.
+ * @param {array} arr - Array of objects.
+ * @returns {array} Array of objects.
+ */
+const biggerPrice = (num, arr) => {
+  return arr
+    .slice()
+    .sort((a, b) => b.price - a.price)
+    .slice(0, num);
+};
+```
