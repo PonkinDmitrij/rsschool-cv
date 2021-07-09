@@ -47,3 +47,19 @@ const biggerPrice = (num, arr) => {
   - Skills and technology used: `HTML5`, `CSS3`, `Sass`, `SVG`, `Webpack`, `Responsive Design`, `Mobile First`
   - Completed project - [https://iqmom.ru/planting-course.html](https://iqmom.ru/planting-course.html)
   - Source code - [https://github.com/PonkinDmitrij/iqmom-course](https://github.com/PonkinDmitrij/iqmom-course)
+
+## Educational history
+
+### Netology
+
+- [Basics of HTML and CSS](https://netology.ru/programs/html-css-base)
+
+### Hexlet
+
+- [Introduction to Web Development](https://ru.hexlet.io/courses/intro_to_web_development)
+- [Basics of HTML, CSS and Web Design](https://ru.hexlet.io/courses/html)
+- [Introduction to Programming](https://ru.hexlet.io/courses/introduction_to_programming)
+
+### Self-education
+
+- Various webinars and lectures on html layout and web programming on youtube; books, articles, and internet resources on programming and development
