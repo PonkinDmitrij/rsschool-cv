@@ -377,3 +377,54 @@ h2 {
 .educational-history {
   margin-bottom: var(--section-margin-bottom);
 }
+
+/* ----------------------------------------
+   $PAGE-FOOTER
+   ---------------------------------------- */
+.page-footer {
+  --padding-vertical: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  background-color: var(--dark-primary-color);
+  background-color: var(--light-primary-color);
+}
+
+.page-footer__link {
+  width: 40px;
+  height: 40px;
+  background: transparent center / contain no-repeat;
+  transition: opacity var(--transition-time) ease-in-out;
+}
+
+.page-footer__link:hover {
+  opacity: 0.6;
+}
+
+.page-footer__link--github {
+  background-image: url('../img/github.svg');
+}
+
+.page-footer__link--rsschool {
+  width: 108px;
+  background-image: url('../img/rs_school_js.svg');
+}
+
+.page-footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+
+@media (max-width: 480px) {
+  .page-footer__copyright {
+    width: 100%;
+    margin-top: 14px;
+    order: 2;
+    text-align: center;
+  }
+}
