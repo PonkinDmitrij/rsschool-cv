@@ -110,3 +110,195 @@ h2 {
     display: block;
   }
 }
+
+/* ----------------------------------------
+   $SIDEBAR
+   ---------------------------------------- */
+.sidebar {
+  flex: 0 0 320px;
+  max-width: 320px;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  font-size: 15px;
+  color: var(--white);
+  background-color: var(--default-primary-color);
+}
+
+@media (max-width: 720px) {
+  .sidebar {
+    max-width: initial;
+  }
+}
+
+.sidebar__header {
+  margin-bottom: var(--section-margin-bottom);
+}
+
+.sidebar__user-avatar {
+  margin: 0 auto 40px;
+}
+
+.sidebar__user-name {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .sidebar__columns {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar__columns {
+    display: block;
+  }
+}
+
+/* ========== $AVATAR ========== */
+.avatar {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+  border-radius: 50%;
+  background-color: var(--divider-color);
+}
+
+.avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ========== $SKILLS ========== */
+.skills {
+  margin-bottom: var(--section-margin-bottom);
+}
+
+@media (max-width: 720px) {
+  .skills {
+    flex: 0 0 50%;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills {
+    flex: 0 0 50%;
+    margin-bottom: var(--section-margin-bottom);
+  }
+}
+
+.skills__title {
+  font-size: 20px;
+  text-align: center;
+  color: var(--light-primary-color);
+}
+
+.skills__list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.skills__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+}
+
+.skills__item {
+  display: flex;
+  padding: 8px 0;
+}
+
+.skills__item-icon {
+  margin-right: 16px;
+  line-height: 1;
+}
+
+.skills__item-icon--html path {
+  fill: var(--html);
+}
+
+.skills__item-icon--css path {
+  fill: var(--css);
+}
+
+.skills__item-icon--sass path {
+  fill: var(--sass);
+}
+
+.skills__item-icon--js path {
+  fill: var(--js);
+}
+
+.skills__item-icon--git path {
+  fill: var(--git);
+}
+
+.skills__item-icon--bem path {
+  fill: var(--bem);
+}
+
+.skills__item-icon svg {
+  display: block;
+}
+
+/* ========== $CONTACTS ========== */
+
+@media (max-width: 720px) {
+  .contacts {
+    flex: 0 0 50%;
+  }
+}
+
+.contacts__title {
+  font-size: 20px;
+  text-align: center;
+  color: var(--light-primary-color);
+}
+
+.contacts__list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts__link {
+  display: flex;
+  padding: 8px 0;
+  font-size: 13px;
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-time) ease-in-out;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--accent-color);
+}
+
+.contacts__link:active {
+  color: var(--dark-primary-color);
+}
+
+.contacts__link-icon {
+  margin-right: 16px;
+  line-height: 1;
+}
+
+.contacts__link-icon svg {
+  display: block;
+}
+
+.contacts__link-text {
+  line-height: 1.6;
+}
